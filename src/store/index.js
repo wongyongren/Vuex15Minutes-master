@@ -27,7 +27,6 @@ export default new Vuex.Store({
       this.totalVuePackages = j[0].id;
       state.commit("setCurrentJoke", j[0].id);
       console.log(this.totalVuePackages);
-      setInterval(() => this.joke , 1000);
     }
   },
   modules: {},
