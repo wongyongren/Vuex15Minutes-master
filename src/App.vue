@@ -12,10 +12,12 @@
 import { mapActions } from "vuex";
 export default {
   methods: {
-    ...mapActions(["setCurrentJoke"])
+    ...mapActions(["setCurrentJoke"]),
   },
+  
   mounted() {
     this.setCurrentJoke();
+    setInterval(this.setCurrentJoke,3000)
   }
 };
 </script>
