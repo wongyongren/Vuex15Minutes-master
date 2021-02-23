@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav" class="flex justify-between max-w-xl mx-auto text-2xl">
       <router-link to="/">Home</router-link>
-      <router-link to="/jokes">All Jokes</router-link>
+      <router-link to="/jokes">List</router-link>
     </div>
     <router-view />
   </div>
