@@ -25,9 +25,6 @@ export default {
     ...mapGetters({ joke: "getCurrentJoke" })
 
   },
-  async created() {
-    setInterval(() => "setCurrentJoke", 3000);
-  },
 };
 </script>
 
